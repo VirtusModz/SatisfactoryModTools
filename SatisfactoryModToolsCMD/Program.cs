@@ -25,7 +25,7 @@ namespace SatisfactoryModToolsCMD
             String ResponseFile = @"C:\temp\Response.txt";
             String ResponseParameters = null;
 
-
+            // I/O Texts
             Console.WriteLine("Satisfactory Mod Tools for Windows\r");
             Console.WriteLine("----------------------------------\n\n");
 
@@ -63,6 +63,8 @@ namespace SatisfactoryModToolsCMD
 
                     Console.WriteLine("Parsing required parameters...");
 
+                     // Parse it
+
                     String[] lines = File.ReadAllLines(PakListPath);
                     IEnumerable<string> selectLines = lines.Where(line => line.Contains(@"\FactoryGame\Saved\Cooked\WindowsNoEditor\FactoryGame\Content\"));
                     foreach (var item in selectLines)
@@ -72,6 +74,8 @@ namespace SatisfactoryModToolsCMD
 
                     Console.WriteLine("Parsed with success!");
                     Console.WriteLine(ResponseParameters);
+
+                    // Add the parsed data in the file
 
                     Console.WriteLine("Writing parsed data into the file...");
                     Byte[] content = new UTF8Encoding(true).GetBytes(ResponseParameters);
@@ -92,10 +96,11 @@ namespace SatisfactoryModToolsCMD
                 // Determine whether the directory exists.
                 if (Directory.Exists(" \"" + GamePath + @"\FactoryGame\Content\Paks\~mods"))
                 {
+                    // If there is already a directory, just create the mod inside
                     Console.WriteLine("That path exists already. Adding the mod inside...");
                 }
 
-                // Try to create the directory.
+                // Try to create the directory, the pak patch file, the sig patch file.
                 String path = GamePath + @"\FactoryGame\Content\Paks\~mods\";
                 DirectoryInfo di = Directory.CreateDirectory(path);
                 Console.WriteLine("The directory was created successfully at {0}.", Directory.GetCreationTime(path));
