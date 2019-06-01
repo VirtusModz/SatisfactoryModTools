@@ -1,5 +1,6 @@
 # Satisfactory Mod Tools
   * Tools aimed to make UE4 Modding for Satisfactory Easy!
+  * /!\ Warning! This tool is only for Windows 64-bits computers!!
   
 ## Creating A Mod
 
