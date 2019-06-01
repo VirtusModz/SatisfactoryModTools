@@ -34,7 +34,7 @@ namespace SatisfactoryModTools
                 Console.WriteLine("Choose an option from the following list:\n");
                 Console.WriteLine("  1) - Mod Packager");
                 Console.WriteLine("  2) - Mod Manager (Soon...)");
-                Console.WriteLine("\n  e) - Exit the program");
+                Console.WriteLine("\n  e) - Exit");
                 Console.Write("\n~Tools>");
 
                 // Mod object creation
