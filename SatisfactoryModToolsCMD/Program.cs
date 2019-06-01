@@ -27,7 +27,10 @@ namespace SatisfactoryModToolsCMD
 
 
             Console.WriteLine("Satisfactory Mod Tools for Windows\r");
-            Console.WriteLine("----------------------------------\n");
+            Console.WriteLine("----------------------------------\n\n");
+
+            Console.WriteLine("/!\\ You need Unreal Engine 4.20.3 to make this tool work properly!\n\n");
+            Console.WriteLine("-------------------------------------------------------------------\n\n");
 
             Console.WriteLine("Type in your Satisfactory game folder, and then press Enter");
             Console.WriteLine("The default one is: " + @"C:\Program Files\Epic Games\SatisfactoryEarlyAccess");
