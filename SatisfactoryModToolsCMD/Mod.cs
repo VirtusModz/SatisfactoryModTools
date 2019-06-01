@@ -133,6 +133,7 @@ namespace SatisfactoryModTools
                 File.Copy(Path.Combine(GamePath + @"\FactoryGame\Content\Paks", "FactoryGame-WindowsNoEditor.sig"), Path.Combine(GamePath + @"\FactoryGame\Content\Paks\~mods", ModName + "_p.sig"), true);
 
                 Console.WriteLine("Mod packaged! Custom sig file created! the mod is under (" + path + ")");
+                Console.ReadLine();
             }
             catch (Exception Ex)
             {
