@@ -13,8 +13,8 @@
   
   3. ### Creating your .pak file
     * Open up the mod loader
-    * If it asks for a location put the games main directory (C:\Program Files\Epic Games\SatisfactoryEarlyAccess\FactoryGame).
-    * Give the mod a title.
-    * Press Enter and wait at least 5 seconds.
+    * Choose the first option (1. Packaging)
+    * Give the mod a title,
+    * Press Enter, follow the instructions and wait all the windows to be closed before launching the game (Time of the Packaging (at least 5s)).
     
 Created by VirtusModz
