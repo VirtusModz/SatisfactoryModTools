@@ -17,4 +17,6 @@
     * Give the mod a title,
     * Press Enter, follow the instructions and wait all the windows to be closed before launching the game (Time of the Packaging (at least 5s)).
     
+
+[Trello board here!](https://trello.com/b/MY7s6vAs/satisfactorymodtools)
 Created by VirtusModz
