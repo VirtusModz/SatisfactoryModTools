@@ -1,10 +1,5 @@
 # Project abandoned / not maintened
 <br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
 
 # Satisfactory Mod Tools
   * Tools aimed to make UE4 Modding for Satisfactory Easy!
