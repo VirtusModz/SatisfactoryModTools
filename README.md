@@ -1,4 +1,4 @@
-# Project abandoned / delayed / not maintened
+# Project abandoned / not maintened
 <br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br>
