@@ -1,5 +1,5 @@
-# Project abandoned / not maintened
-<br><br><br><br><br><br><br><br>
+# Not updated!
+<br><br><br><br>
 
 # Satisfactory Mod Tools
   * Tools aimed to make UE4 Modding for Satisfactory Easy!
@@ -22,4 +22,4 @@
     
 
 [Trello board here!](https://trello.com/b/MY7s6vAs/satisfactorymodtools)
-Created by VirtusModz
+Created by Xiloe
